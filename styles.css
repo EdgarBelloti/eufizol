@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+#botaoL {
+    padding: 100px 150px;
+    font-size: 200px;
+    cursor: pointer;
+    background-color: #f80505; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remover borda padrão */
+    border-radius: 50px; /* Bordas arredondadas */
+    transition: background-color 0.3s, transform 0.3s; /* Adiciona transição suave para mudanças de cor e transformação */
+}
+
+#botaoL:hover {
+    background-color: #f80240; /* Cor de fundo do botão quando em hover */
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho do botão quando em hover */
+}
